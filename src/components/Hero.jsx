@@ -7,7 +7,7 @@ import facebook from "../assets/facebook.png";
 import instagram from "../assets/instagram.png";
 import twitter from "../assets/twitter.png";
 import linkedin from "../assets/linkedin.png";
-import Resume from "../assets/Hariprasath_RESUME.pdf";
+import Resume from "../assets/HARIPRASATH_M_RESUME.pdf";
 
 const Hero = () => {
   return (
@@ -18,7 +18,7 @@ const Hero = () => {
             <h1 className='lg:text-7xl text-4xl font-bold lg:leading-snug'>Hi there, <br />I'm Hariprasath <span className='text-red-500'>M</span></h1>
             <p className='md:text-2xl text-xl mb-4'>Web Developer & Designer</p>
             <p className='mb-4'>I'm a passionate web developer with expertise in React, Node.js, and modern web technologies. I love creating beautiful and functional websites that solve real-world problems.</p>
-            <a href={Resume} download="Hariprasath_RESUME.pdf">
+            <a href={Resume} download="HARIPRASATH_M_RESUME.pdf">
               <button className='bg-black text-white px-3 py-2 w-max rounded-md'>Download CV</button>
             </a>
           </div>

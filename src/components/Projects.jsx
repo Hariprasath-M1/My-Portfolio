@@ -2,8 +2,8 @@ import React from 'react';
 import Gym from '../assets/gymp.png'
 import fruit from '../assets/fruitp.png'
 import shoes from '../assets/shoesp.png'
-// import Webelite from '../assets/Webelite.png'
-// import Supercar from '../assets/Supercar.png'
+ import foodp from '../assets/foodp.png'
+ import ecomp from '../assets/ecomp.png'
 import Cards from './Cards';
 
 
@@ -29,18 +29,18 @@ const Projects = () => {
       image: shoes,
       github: "https://github.com/Hariprasath-M1/Ecommerce_Project"
     },
-    // {
-    //   title: 'Webelite builder',
-    //   desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
-    //   image: Webelite,
-    //   github: "#"
-    // },
-    // {
-    //   title: 'Super Car',
-    //   desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
-    //   image: Supercar,
-    //   github: "https://github.com/rohitsingh93300/supercars"
-    // },
+    {
+      title: 'shoping website',
+      desc: 'Built an interactive e-commerce shopping website using React.js, featuring dynamic components for a seamless and engaging user experience.',
+      image: ecomp,
+      github: "https://github.com/Hariprasath-M1/Product-website"
+    },
+    {
+      title: 'Basic food webpage',
+      desc: 'Developed a simple food webpage showcasing a vibrant layout, allowing users to explore delicious meals effortlessly.',
+      image: foodp,
+      github: "https://github.com/Hariprasath-M1/Basic-food-webpage"
+    },
   ];
 
   return (

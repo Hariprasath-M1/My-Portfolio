@@ -10,7 +10,7 @@ import Nodejs from '../assets/Nodejs.png'
 import Mongodb from '../assets/mongodb.svg'
 import Express from '../assets/Express.png'
 import MernStack from '../assets/mernstack.png'
-// import NextJs from '../assets/NextJs.png'
+
 
 const About = () => {
   return (
